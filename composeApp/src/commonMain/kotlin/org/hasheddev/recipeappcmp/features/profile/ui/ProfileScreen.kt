@@ -161,7 +161,8 @@ fun NotLoggedInScreen(
                 text = "Login In",
                 style = TextStyle(
                     fontSize = 16.sp,
-                )
+                ),
+                color = MaterialTheme.colorScheme.onPrimary
             )
         }
 
@@ -258,7 +259,8 @@ fun ProfileContent(
                 text = "Logout",
                 style = TextStyle(
                     fontSize = 16.sp,
-                )
+                ),
+                color = MaterialTheme.colorScheme.onPrimary
             )
         }
     }
